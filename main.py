@@ -15,11 +15,11 @@ def PSG(num):
     "4":"Kimpembe",
     "5":"Hakimi",
     "6":"Verratti",
-    “7”:”Paredes”,
-    “8”:”Bernart”,
-    “9”:”Mbappe”,
-    “10”:”Messi”,
-    “11”:”Neymar”
+    "7":"Paredes",
+    "8":"Bernart",
+    "9":"Mbappe",
+    "10":"Messi",
+    "11":"Neymar"
          
     }
     return (PSG[num])
