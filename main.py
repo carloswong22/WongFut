@@ -4,7 +4,7 @@ app=FastAPI()
 
 @app.get("/")
 def index():
-     return "Hola a todos, quieres saberl 11 inicial del PSG"
+     return "Hola a todos, quieres saber el 11 inicial del PSG"
 
 @app.get("/PlantillaPSG/{num}")
 def PSG(num):
