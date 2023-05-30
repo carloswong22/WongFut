@@ -7,8 +7,8 @@ def index():
      return "Hola a todos, quieres saber el 11 inicial del PSG"
 
 @app.get("/PlantillaPSG/{num}")
-def PSG(num):
-    Plantilla={
+def plantillaPSG(num):
+    plantilla={
     "1":"Donnarumma",
     "2":"Ramos",
     "3":"Marquinhos",
@@ -22,7 +22,7 @@ def PSG(num):
     "11":"Neymar"
          
     }
-    return (PSG[num])
+    return (plantilla[num])
 @app.get("/Conversor_CaF/{C}")
 def conversorCaF(C):
     try:
